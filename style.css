@@ -10,7 +10,7 @@
 
 #wrapper{
     width: 100%;
-    
+    /* 100 viewpoint */
     height: 100vh; 
 }
 
@@ -45,3 +45,47 @@
 #actions .item{
     margin-left: 22px;
 }
+
+
+#banner {
+    width: 100%;
+    background-image :url("assets/banner.png");
+    height: 463px;
+    margin-top:40px;
+    display: flex;
+    padding:0px 133px;
+    position:relative;
+}
+
+#banner .box-left, #banner .box-right {
+    width: 50%;
+}
+
+#banner .box-left h2{
+    font-size: 48px;
+    margin-top: 75px;
+    color: #fff;
+
+}
+
+#banner .box-left p{
+    color: #D0D0D0;
+}
+
+#banner .box-left button{
+    width: 191px;
+    height: 40px;
+    margin-top: 41px;
+    background: #1d1a1a;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.4s; /* set the time to change when hover button */
+}
+
+#banner .box-left button:hover{
+    background: orange;
+}
+
