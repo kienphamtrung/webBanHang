@@ -134,3 +134,69 @@
     transform: translateX(-50%); /*Further adjusts the horizontal position by moving the element 50% of its own width to the left. 
                                 This centers the element perfectly horizontally. */
 }
+
+#wp-products{
+    padding: 116px 157px 78px 157px;
+}
+
+#wp-products h2{
+    text-align: center;
+    margin-bottom: 76px;
+    font-size: 32px;
+    color: #626a67;
+}
+
+#list-products{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap; /* This wrap is when the item is full space of page it will */
+
+}
+
+#list-products .item{
+    width: 290px;
+    height: 374px;
+    background: #362f2f;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+#list-products .item  img{
+
+    display: block;
+    margin: 0px auto;
+    margin-top: 17px;
+
+}
+
+#list-products .item .stars {
+    display: flex;
+    /* justify-content: center; */
+    margin: 0px auto;
+    width: 50%; /* set width to 50% in order to use margin auto to center 
+                it other wise width of this class div is full 100% can not use margin auto to center it
+                */
+
+}
+
+#list-products .item .name{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 21px;
+}
+
+#list-products .item .desc{
+    text-align: center;
+    color: #626a67;
+}
+
+#list-products .item .price{
+    text-align: center;
+    font-weight: bold;
+    color: #f42424;
+    margin-top: 20px;
+}
