@@ -89,3 +89,36 @@
     background: orange;
 }
 
+#banner .box-right{
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner .box-right img{
+    margin: 0px 10px;
+    animation: animation 3s infinite linear;
+}
+
+#banner .box-right img:nth-child(1){
+    animation-delay: 0.5s;
+
+}
+
+#banner .box-right img:nth-child(2){
+    animation-delay: 1s;
+}
+
+@keyframes animation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
