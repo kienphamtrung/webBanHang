@@ -47,6 +47,7 @@
 }
 
 
+
 #banner {
     width: 100%;
     background-image :url("assets/banner.png");
@@ -55,6 +56,8 @@
     display: flex;
     padding:0px 133px;
     position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #banner .box-left, #banner .box-right {
@@ -121,4 +124,13 @@
         transform: translateY(0px);
     }
 
+}
+
+.to-bottom{
+    position: absolute; /*This class with position will base on the class father whose position is relative, in this case it is class banner*/
+    color: red;
+    bottom: -40px; /*From the bottom edge of the class banner it will move -40px */
+    left: 50%;
+    transform: translateX(-50%); /*Further adjusts the horizontal position by moving the element 50% of its own width to the left. 
+                                This centers the element perfectly horizontally. */
 }
